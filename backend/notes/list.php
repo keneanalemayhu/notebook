@@ -2,6 +2,7 @@
 
 <?php
 require '../db.php';
+require '../cors.php';
 
 $result = $conn->query("SELECT * FROM notes ORDER BY updated_at DESC");
 $notes = [];
