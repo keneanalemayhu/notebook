@@ -1,6 +1,14 @@
 Notebook
 │
 ├── backend/
+│   ├── notes/
+│   │   ├── create.php
+│   │   ├── delete.php
+│   │   ├── list.php
+│   │   ├── read.php
+│   │   └── update.php
+│   ├── db.php
+│   └── schema.sql
 │
 ├── public/
 │   ├── images/
