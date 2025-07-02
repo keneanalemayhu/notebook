@@ -2,6 +2,7 @@
 
 <?php
 require '../db.php';
+require '../cors.php';
 
 $data = json_decode(file_get_contents("php://input"), true);
 $id = $_GET['id'] ?? null;

@@ -2,6 +2,7 @@
 
 <?php
 require '../db.php';
+require '../cors.php';
 
 $id = $_GET['id'] ?? null;
 

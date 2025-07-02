@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$user = 'your_db_user';
-$pass = 'your_db_password';
-$db   = 'your_database_name';
+$host = '';
+$user = '';
+$pass = '';
+$db   = '';
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
