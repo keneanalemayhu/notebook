@@ -1,11 +1,18 @@
-import { Button } from "@/components/ui/button"
+// @/App.tsx
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button className="outline-offset-4">Click me</Button>
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

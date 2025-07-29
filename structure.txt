@@ -1,0 +1,39 @@
+notebook/
+├── .vite/					        # Vite cache files (auto-generated)
+├── backend/
+│   └── schema.sql              	# MySQL schema for users and notes
+│
+├── node_modules/               	# Project dependencies
+├── public/
+│   └── vite.svg                	# Public asset for Vite
+│
+├── src/
+│   ├── assets/
+│   │   └── react.svg           	# React logo asset
+│   │
+│   ├── components/
+│   │   └── ui/
+│   │
+│   ├── lib/
+│   │   └── utils.ts            	# Utility functions
+│   │
+│   ├── App.css                 	# Styles for App component
+│   ├── App.tsx                 	# Root component
+│   ├── index.css               	# Global styles
+│   ├── index.tsx              		# Entry point
+│   ├── main.tsx               		# Application bootstrap
+│   └── vite-env.d.ts          		# TypeScript Vite environment declarations
+│
+├── .gitignore                  	# Git ignored files list
+├── components.json             	# Component metadata (optional use)
+├── eslint.config.js           		# ESLint configuration
+├── index.html                  	# HTML entry point for Vite
+├── package-lock.json           	# Dependency lock file
+├── package.json                	# Project metadata and scripts
+├── README.md                   	# Project documentation
+├── structure.txt               	# Project structure description
+├── tsconfig.app.json           	# TS config for the app
+├── tsconfig.json               	# Root TypeScript configuration
+├── tsconfig.node.json          	# TS config for Node-specific files
+├── vite.config.ts              	# Vite configuration
+└── README.md                   	# Project documentation
