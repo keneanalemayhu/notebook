@@ -1,5 +1,4 @@
 notebook/
-├── .vite/					        # Vite cache files (auto-generated)
 ├── backend/
 │   └── schema.sql              	# MySQL schema for users and notes
 │
@@ -12,10 +11,24 @@ notebook/
 │   │   └── react.svg           	# React logo asset
 │   │
 │   ├── components/
-│   │   └── ui/
+│   │   ├── ui/            	        # UI components
+│   │   ├── app-sidebar.tsx         # App sidebar component from shadcn
+│   │   ├── login-form.tsx          # Login form component from shadcn
+│   │   ├── nav-main.tsx            # Main navigation component from shadcn
+│   │   ├── nav-projects.tsx        # Projects navigation component from shadcn
+│   │   ├── nav-user.tsx            # User navigation component from shadcn
+│   │   └── signup-form.tsx         # Sign Up form component from shadcn
+│   │
+│   ├── hooks/
+│   │   └── use-mobile.ts           # Custom hook for mobile detection
 │   │
 │   ├── lib/
 │   │   └── utils.ts            	# Utility functions
+│   │
+│   ├── pages/
+│   │   ├── Login.tsx             	# Login page
+│   │   ├── Notebook.tsx          	# Notebook page
+│   │   └── SignUp.tsx            	# Sign Up page
 │   │
 │   ├── App.css                 	# Styles for App component
 │   ├── App.tsx                 	# Root component
